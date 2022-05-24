@@ -1,0 +1,118 @@
+body {
+  background-color:  hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+h2:hover {
+  color:  hsl(178, 100%, 50%);
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+  height: fit-content;
+  margin: 150px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 20px 100px 5px;
+}
+
+.card-image {
+  background-image: url("../images/image-equilibrium.jpg");
+  background-size: contain;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: hsla(178, 100%, 50%, 0.5);
+}
+
+/* .image-equilibrium {
+  width: 100%;
+  border-radius: 10px;
+  background-color: hsl(178, 100%, 50%);
+} */
+
+.view-icon {
+  position: absolute;
+  display: none;
+  top: 126px;
+  left: 126px;
+}
+
+.card-image:hover {
+  background-blend-mode: overlay;
+}
+
+.card-image:hover .view-icon{
+  display: block;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-icon {
+  margin-top: auto;
+  margin-right: 5px;
+}
+
+.row-text {
+  display: inline-block;
+}
+
+.eth-amount {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+
+.time-left {
+  font-weight: 400;
+}
+
+.creation {
+  display: flex;
+}
+
+.avatar {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: auto 15px auto 0;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.creator {
+  color: white;
+}
+
+.creator:hover {
+  color:  hsl(178, 100%, 50%);
+}
